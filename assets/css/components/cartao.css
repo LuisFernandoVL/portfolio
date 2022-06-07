@@ -1,0 +1,111 @@
+.cartao {
+    background-color: var(--cor-roxo-destaque-efeito);
+    border-radius: 0.5rem;
+    box-shadow: 0px 4px 8px 0px #000000;
+    margin: 1rem 0;
+    max-width: calc(328px * 1.8);
+    overflow: hidden;
+    position: relative;
+    transition: 500ms linear;
+    width: 100%;
+}
+
+.cartao--invisivel-esquerda {
+    left: -50%;
+    opacity: 0;
+}
+
+.cartao--visivel-esquerda {
+    left: 0;
+    opacity: 1;
+}
+
+.cartao--invisivel-direita {
+    opacity: 0;
+    right: -50%;
+}
+
+.cartao--visivel-direita {
+    opacity: 1;
+    right: 0;
+}
+
+.cartao--web {
+    background-color: var(--cor-azul-destaque-efeito);
+}
+
+.cartao--mobile {
+    background-color: var(--cor-laranja-destaque-efeito);
+}
+
+.cartao--desktop {
+    background-color: var(--cor-verde-destaque-efeito);
+}
+
+.cartao--design {
+    background-color: var(--cor-rosa-destaque-efeito);
+}
+
+.cartao__tecnologias {
+    color: var(--cor-texto-destaque);
+    background-color: var(--cor-roxo-destaque);
+    display: flex;
+    flex-flow: row wrap;
+    font-size: var(--fonte-tamanho-texto-legenda);
+    font-weight: var(--fonte-peso-semibold);
+    justify-content: space-around;
+    padding: 0.375rem 1rem;
+    text-transform: uppercase;
+}
+
+.cartao__tecnologias--web {
+    background-color: var(--cor-azul-destaque);
+}
+
+.cartao__tecnologias--mobile {
+    background-color: var(--cor-laranja-destaque);
+}
+
+.cartao__tecnologias--desktop {
+    background-color: var(--cor-verde-destaque-escuro);
+}
+
+.cartao__tecnologias--design {
+    background-color: var(--cor-rosa-destaque);
+}
+
+.cartao__informacoes {
+    padding: 0.5rem 1rem;
+    text-align: justify;
+}
+
+.cartao__informacoes-titulo {
+    color: var(--cor-texto-destaque);
+    font-weight: var(--fonte-peso-semibold);
+    margin-bottom: 0.5rem;
+}
+
+.cartao__informacoes-descricao {
+    margin-bottom: 0.5rem;
+}
+
+.cartao__informacoes-lista-links {
+    color: var(--cor-texto-secundario);
+    display: flex;
+    flex-flow: row wrap;
+    font-size: var(--fonte-tamanho-texto-legenda);
+    font-weight: var(--fonte-peso-semibold);
+}
+
+.cartao__informacoes-link {
+    margin-bottom: 0.5rem;
+    margin-right: 0.5rem;
+    padding: 0.25rem 0.5rem;
+}
+
+@media screen and (min-width: 768px) {
+    .cartao {
+        margin: 2rem calc(4.349%);
+        width: calc(50% - 8.698%);
+    }
+}

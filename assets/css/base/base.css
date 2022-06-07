@@ -1,0 +1,113 @@
+@import url(reset.css);
+@import url(variaveis.css);
+
+body {
+    background-color: var(--cor-roxo-fundo-escuro);
+    color: var(--cor-texto-secundario);
+    font-family: var(--fonte-familia-principal);
+    font-size: var(--fonte-tamanho-texto-corrido);
+    font-weight: var(--fonte-peso-regular);
+    width: 100%;
+}
+
+.container {
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.icone {
+    align-items: center;
+    display: flex;
+}
+
+.icone::before,
+.icone::after {
+    font-size: 1rem;
+    font-weight: var(--fonte-peso-regular);
+}
+
+.icone--margem-esquerda::after {
+    margin-left: 0.25rem;
+}
+
+.icone--margem-direita::before {
+    margin-right: 0.25rem;
+}
+
+.icone-web::before {
+    content: "\e894";
+    font-family: 'Material Symbols Rounded';
+}
+
+.icone-mobile::before {
+    content: "\e32c";
+    font-family: 'Material Symbols Rounded';
+}
+
+.icone-desktop::before {
+    content: "\e30c";
+    font-family: 'Material Symbols Rounded';
+}
+
+.icone-design::before {
+    content: "\e746";
+    font-family: 'Material Symbols Rounded';
+}
+
+.icone-seta-dupla--baixo::before,
+.icone-seta-dupla--baixo::after {
+    content: "\ead0";
+    font-family: 'Material Symbols Rounded';
+}
+
+.icone-facebook::before {
+    content: "\f09a";
+    font-family: 'Font Awesome 6 Brands';
+}
+
+.icone-figma::before {
+    content: "\f799";
+    font-family: 'Font Awesome 6 Brands';
+}
+
+.icone-github::before {
+    content: "\f09b";
+    font-family: 'Font Awesome 6 Brands';
+}
+
+.icone-mail::before {
+    content: "\f0e0";
+    font-family: 'Font Awesome 6 Free';
+}
+
+.icone-instagram::before {
+    content: "\f16d";
+    font-family: 'Font Awesome 6 Brands';
+}
+
+.icone-link::before {
+    content: "\e157";
+    font-family: 'Material Symbols Rounded';
+}
+
+.icone-linkedin::before {
+    content: "\f08c";
+    font-family: 'Font Awesome 6 Brands';
+}
+
+.icone-twitter::before {
+    content: "\f099";
+    font-family: 'Font Awesome 6 Brands';
+}
+
+.icone-youtube::before {
+    content: "\f167";
+    font-family: 'Font Awesome 6 Brands';
+}
+
+@media screen and (min-width: 1024px) {
+    .container {
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+}
