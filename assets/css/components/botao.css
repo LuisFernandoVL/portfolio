@@ -1,0 +1,49 @@
+.botao {
+    border: 1px solid var(--cor-roxo-destaque);
+    border-radius: 0.5rem;
+    box-sizing: border-box;
+    color: var(--cor-texto-secundario);
+    display: flex;
+    justify-content: center;
+}
+
+.botao--web {
+    border-color: var(--cor-azul-destaque);
+}
+
+.botao--mobile {
+    border-color: var(--cor-laranja-destaque);
+}
+
+.botao--desktop {
+    border-color: var(--cor-verde-destaque);
+}
+
+.botao--design {
+    border-color: var(--cor-rosa-destaque);
+}
+
+@media screen and (min-width: 1024px) {
+    .botao:hover {
+        border-color: var(--cor-roxo-principal);
+        color: var(--cor-texto-destaque);
+        transform: scale(1.08);
+        z-index: 1;
+    }
+
+    .botao--web:hover {
+        border-color: #0080ff;
+    }
+
+    .botao--mobile:hover {
+        border-color: #ff8000;
+    }
+
+    .botao--desktop:hover {
+        border-color: #80ff00;
+    }
+
+    .botao--design:hover {
+        border-color: #ff0080;
+    }
+}

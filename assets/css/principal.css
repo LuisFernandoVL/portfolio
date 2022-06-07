@@ -1,0 +1,112 @@
+.principal {
+    display: flex;
+    flex-direction: column;
+}
+
+.secao-apresentacao {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    min-height: 100vh;
+    padding: 2rem 0;
+}
+
+.secao-apresentacao__informacoes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.secao-apresentacao__logo {
+    color: var(--cor-roxo-principal);
+    display: flex;
+    flex-direction: column;
+    font-family: var(--fonte-familia-marca);
+    margin-bottom: 1rem;
+}
+
+.secao-apresentacao__logo-simbolo {
+    height: 5rem;
+    margin-bottom: 0.5rem;
+}
+
+.secao-apresentacao__logo-escrita {
+    font-size: var(--fonte-tamanho-h2);
+    font-weight: var(--fonte-peso-extrabold);
+    text-align: center;
+}
+
+.secao-apresentacao__logo-escrita--subtitulo {
+    font-size: var(--fonte-tamanho-h4);
+    font-weight: var(--fonte-peso-bold);
+}
+
+.secao-apresentacao__texto {
+    color: var(--cor-texto-destaque);
+    font-size: var(--fonte-tamanho-texto-grande);
+    padding: 0 0.5rem;
+    text-align: justify;
+    line-height: var(--fonte-entrelinha);
+}
+
+.secao-apresentacao__redes-sociais {
+    display: flex;
+    flex-flow: row wrap;
+    font-size: var(--fonte-tamanho-texto-legenda);
+    font-weight: var(--fonte-peso-semibold);
+}
+
+.secao-apresentacao__rede-social {
+    margin: 0.5rem 0.25rem 0;
+    padding: 0.25rem 0.5rem;
+}
+
+.secao-apresentacao__ancora-projetos {
+    font-weight: var(--fonte-peso-light);
+    padding: 0.5rem 0.5rem;
+    text-transform: uppercase;
+}
+
+.secao-projetos {
+    border-top: 1px solid var(--cor-bordas);
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    overflow: hidden;
+    padding: 1rem 0;
+    width: 100%;
+}
+
+.secao-projetos:last-child {
+    border-bottom: 1px solid var(--cor-bordas);
+}
+
+@media screen and (min-width: 768px) {
+    .secao-apresentacao__logo {
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .secao-apresentacao__logo-simbolo {
+        margin-right: 1rem;
+        margin-bottom: 0;
+    }
+
+    .secao-apresentacao__logo-escrita {
+        font-size: var(--fonte-tamanho-h1);
+    }
+
+    .secao-apresentacao__logo-escrita--subtitulo {
+        font-size: var(--fonte-tamanho-h3);
+    }
+
+    .secao-apresentacao__texto {
+        width: 60%;
+        text-align: center;
+    }
+
+    .secao-projetos {
+        justify-content: flex-start;
+    }
+}
