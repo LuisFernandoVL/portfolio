@@ -1,5 +1,7 @@
 .cartao {
     background-color: var(--cor-roxo-escuro);
+    border: 1px solid var(--cor-fundo);
+    box-sizing: border-box;
     border-radius: 0.5rem;
     box-shadow: 0px 8px 16px 0px var(--cor-sombra);
     color: var(--cor-texto-secundario);
@@ -33,18 +35,22 @@
 
 .cartao--web {
     background-color: var(--cor-azul-escuro);
+    border: 1px solid var(--cor-azul-tap);
 }
 
 .cartao--mobile {
     background-color: var(--cor-laranja-escuro);
+    border: 1px solid var(--cor-laranja-tap);
 }
 
 .cartao--desktop {
     background-color: var(--cor-verde-escuro);
+    border: 1px solid var(--cor-verde-tap);
 }
 
 .cartao--design {
     background-color: var(--cor-rosa-escuro);
+    border: 1px solid var(--cor-rosa-tap);
 }
 
 .cartao__tecnologias {

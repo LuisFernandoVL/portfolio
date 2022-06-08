@@ -1,10 +1,10 @@
 :root {
     /* Cores - Temas*/
     /*Roxo - Identidade visual da marca*/
-    --cor-roxo: #9623FB;
+    --cor-roxo: #9623fb;
     --cor-roxo-claro: #BC73FC;
-    --cor-roxo-tap: #BC73FC1F;
-    --cor-roxo-escuro: #0B0014;
+    --cor-roxo-tap: #bc73fc1f;
+    --cor-roxo-escuro: #08000f;
     /*Azul - sites*/
     --cor-azul: #046DC8;
     --cor-azul-claro: #2396FB;
@@ -33,7 +33,7 @@
     --cor-itens-inativos:#807D82;
     --cor-divisoes:#575558;
     --cor-fundo: #2E2D2F;
-    --cor-fundo-escuro:#05000A;
+    --cor-fundo-escuro:hsl(272, 12%, 4%);
     --cor-sombra:#000000;
     /* Fonte - Tamanho na raíz*/
     font-size: 16px;
