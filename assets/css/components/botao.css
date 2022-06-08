@@ -32,6 +32,7 @@
     .botao:hover {
         border-color: var(--cor-roxo-claro);
         color: var(--cor-texto-principal);
+        cursor: pointer;
         transform: scale(1.02);
         z-index: 1;
     }
