@@ -1,0 +1,54 @@
+.botao {
+    border: 1px solid var(--cor-roxo);
+    border-radius: 0.5rem;
+    box-sizing: border-box;
+    color: var(--cor-texto-secundario);
+    display: flex;
+    justify-content: center;
+    -webkit-tap-highlight-color: var(--cor-roxo-tap);
+}
+
+.botao--web {
+    border-color: var(--cor-azul);
+    -webkit-tap-highlight-color: var(--cor-azul-tap);
+}
+
+.botao--mobile {
+    border-color: var(--cor-laranja);
+    -webkit-tap-highlight-color: var(--cor-laranja-tap);
+}
+
+.botao--desktop {
+    border-color: var(--cor-verde);
+    -webkit-tap-highlight-color: var(--cor-verde-tap);
+}
+
+.botao--design {
+    border-color: var(--cor-rosa);
+    -webkit-tap-highlight-color: var(--cor-rosa-tap);
+}
+
+@media screen and (min-width: 768px) {
+    .botao:hover {
+        border-color: var(--cor-roxo-claro);
+        color: var(--cor-texto-principal);
+        transform: scale(1.02);
+        z-index: 1;
+    }
+
+    .botao--web:hover {
+        border-color: var(--cor-azul-claro);
+    }
+
+    .botao--mobile:hover {
+        border-color: var(--cor-laranja-claro);
+    }
+
+    .botao--desktop:hover {
+        border-color: var(--cor-verde-claro);
+    }
+
+    .botao--design:hover {
+        border-color: var(--cor-rosa-claro);
+    }
+}

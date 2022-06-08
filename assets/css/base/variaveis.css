@@ -1,0 +1,64 @@
+:root {
+    /* Cores - Temas*/
+    /*Roxo - Identidade visual da marca*/
+    --cor-roxo: #9623FB;
+    --cor-roxo-claro: #BC73FC;
+    --cor-roxo-tap: #BC73FC1F;
+    --cor-roxo-escuro: #0B0014;
+    /*Azul - sites*/
+    --cor-azul: #046DC8;
+    --cor-azul-claro: #2396FB;
+    --cor-azul-tap: #2396FB1F;
+    --cor-azul-escuro: #00050A;
+    /*Laranja - apps móveis*/
+    --cor-laranja: #A05703;
+    --cor-laranja-claro: #F08205;
+    --cor-laranja-tap: #F082051F;
+    --cor-laranja-escuro: #0A0500;
+    /*Laranja - apps de computadores*/
+    --cor-verde: #027802;
+    --cor-verde-claro: #03C903;
+    --cor-verde-tap: #03C9031F;
+    --cor-verde-escuro: #000A00;
+    /*Rosa - UI designs e identidades visuais*/
+    --cor-rosa: #C8046D;
+    --cor-rosa-claro: #FB2396;
+    --cor-rosa-tap: #FB23961F;
+    --cor-rosa-escuro: #0A0005;
+    /* Cores - Outras*/
+    --cor-texto-principal: #FAFAFA;
+    --cor-texto-secundario: #BDBBBE;
+    --cor-texto-terciario: #949296;
+    --cor-texto-desativado: #FAFAFAA0;
+    --cor-itens-inativos:#807D82;
+    --cor-divisoes:#575558;
+    --cor-fundo: #2E2D2F;
+    --cor-fundo-escuro:#05000A;
+    --cor-sombra:#000000;
+    /* Fonte - Tamanho na raíz*/
+    font-size: 16px;
+    /* Fonte - Familias */
+    --fonte-familia-marca: 'Turret Road', 'Oxanium', sans-serif;
+    --fonte-familia-principal: 'Oxanium', sans-serif;
+    /* Fonte - Tamanhos */
+    --fonte-tamanho-h1: 3.25rem;
+    --fonte-tamanho-h2: 2.5rem;
+    --fonte-tamanho-h3: 2rem;
+    --fonte-tamanho-h4: 1.625rem;
+    --fonte-tamanho-texto-grande: 1.25rem;
+    --fonte-tamanho-texto-corrido: 1rem;
+    --fonte-tamanho-texto-menor: 0.875rem;
+    --fonte-tamanho-texto-legenda: 0.75rem;
+    /* Fonte - Pesos */
+    --fonte-peso-extralight: 200;
+    --fonte-peso-light: 300;
+    --fonte-peso-regular: 400;
+    --fonte-peso-medium: 500;
+    --fonte-peso-semibold: 600;
+    --fonte-peso-bold: 700;
+    --fonte-peso-extrabold: 800;
+    /* Fonte - Entrelinha */
+    --fonte-entrelinha: 1.5rem;
+    /* Tipo de movimento do scroll */
+    scroll-behavior: smooth;
+}

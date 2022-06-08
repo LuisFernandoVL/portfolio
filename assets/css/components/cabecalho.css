@@ -1,0 +1,112 @@
+.cabecalho {
+    align-items: center;
+    background-color: var(--cor-roxo);
+    box-shadow: 0px 16px 32px 0px var(--cor-sombra);
+    box-sizing: border-box;
+    color: var(--cor-texto-desativado);
+    display: flex;
+    flex-direction: column;
+    font-weight: var(--fonte-peso-bold);
+    height: 5rem;
+    justify-content: space-between;
+    opacity: 0;
+    padding-top: 0.5rem;
+    position: fixed;
+    text-transform: lowercase;
+    top: -5rem;
+    transition: 500ms linear;
+    width: 100%;
+    z-index: 2;
+}
+
+.cabecalho--visivel {
+    opacity: 1;
+    top: 0rem;
+}
+
+.cabecalho--web {
+    background-color: var(--cor-azul);
+}
+
+.cabecalho--mobile {
+    background-color: var(--cor-laranja);
+}
+
+.cabecalho--desktop {
+    background-color: var(--cor-verde);
+}
+
+.cabecalho--design {
+    background-color: var(--cor-rosa);
+}
+
+.cabecalho__logo {
+    height: 2rem;
+    -webkit-tap-highlight-color: #00000000;
+}
+
+.cabecalho__logo-simbolo {
+    height: 100%;
+}
+
+.cabecalho__navegacao {
+    display: flex;
+    height: 2rem;
+    width: 100%;
+}
+
+.navegacao__lista {
+    color: var(--cor-texto-desativado);
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.navegacao__item {
+    border-bottom: 3px solid #00000000;
+    box-sizing: border-box;
+    display: flex;
+    transition: 300ms linear;
+    -webkit-tap-highlight-color: #00000000;
+}
+
+.navegacao__item--ativo {
+    color: var(--cor-texto-principal);
+    border-bottom: 3px solid var(--cor-texto-principal);
+}
+
+.navegacao__item-icone::before {
+    display: none;
+}
+
+@media screen and (min-width: 768px) {
+    .cabecalho {
+        flex-direction: row;
+        height: 3.5rem;
+        padding-top: 0;
+    }
+
+    .cabecalho__logo {
+        height: 2.5rem;
+    }
+
+    .cabecalho__navegacao {
+        height: 100%;
+        width: calc(100% - 4.166rem);
+    }
+
+    .navegacao__item {
+        justify-content: center;
+        width: 12.5%;
+    }
+
+    .navegacao__item:hover {
+        cursor: pointer;
+        color: var(--cor-texto-principal);
+    }
+
+    .navegacao__item-icone::before {
+        display: block;
+        font-size: 1.5rem;
+    }
+}
