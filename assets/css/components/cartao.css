@@ -2,7 +2,7 @@
     background-color: var(--cor-roxo-escuro);
     border: 1px solid var(--cor-fundo);
     box-sizing: border-box;
-    border-radius: 0.5rem;
+    border-radius: 0.25rem;
     box-shadow: 0px 8px 16px 0px var(--cor-sombra);
     color: var(--cor-texto-secundario);
     margin: 1rem 0;
