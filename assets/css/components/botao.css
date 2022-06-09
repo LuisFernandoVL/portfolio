@@ -2,7 +2,7 @@
     border: 1px solid var(--cor-roxo);
     border-radius: 0.25rem;
     box-sizing: border-box;
-    color: var(--cor-texto-secundario);
+    color: var(--cor-texto-principal);
     display: flex;
     justify-content: center;
     -webkit-tap-highlight-color: var(--cor-roxo-tap);
