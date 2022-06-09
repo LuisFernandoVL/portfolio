@@ -1,9 +1,12 @@
 :root {
     /* Cores - Temas*/
     /*Roxo - Identidade visual da marca*/
-    --cor-roxo: #9623fb;
-    --cor-roxo-claro: #BC73FC;
-    --cor-roxo-tap: #bc73fc1f;
+    /* --cor-roxo: hsl(272, 96%, 56%); */
+    --cor-roxo: #781fff;
+    /* --cor-roxo-claro: #BC73FC; */
+    --cor-roxo-claro: #aa73fc;
+    /* --cor-roxo-tap: #bc73fc1f; */
+    --cor-roxo-tap: #aa73fc1f;
     --cor-roxo-escuro: #08000f;
     /*Azul - sites*/
     --cor-azul: #046DC8;
